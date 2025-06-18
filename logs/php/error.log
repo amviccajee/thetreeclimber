@@ -1,0 +1,2 @@
+[18-Jun-2025 14:16:08 UTC] PHP Warning:  filemtime(): stat failed for /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme/dist/css/style.css in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme/functions.php on line 7
+[18-Jun-2025 14:16:08 UTC] PHP Warning:  filemtime(): stat failed for /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme/dist/css/style.css in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme/functions.php on line 7
