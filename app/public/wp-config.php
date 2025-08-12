@@ -23,6 +23,8 @@
 /** The name of the database for WordPress */
 define( 'DB_NAME', 'local' );
 
+define('WP_ENVIRONMENT_TYPE', 'development');
+
 /** Database username */
 define( 'DB_USER', 'root' );
 
@@ -91,9 +93,9 @@ if ( ! defined( 'WP_DEBUG' ) ) {
 	define( 'WP_DEBUG', false );
 }
 
-define( 'WP_ENVIRONMENT_TYPE', 'local' );
-/* That's all, stop editing! Happy publishing. */
-
+if ( ! defined( 'WP_ENVIRONMENT_TYPE' ) ) {
+    define( 'WP_ENVIRONMENT_TYPE', 'local' );
+}
 /** Absolute path to the WordPress directory. */
 if ( ! defined( 'ABSPATH' ) ) {
 	define( 'ABSPATH', __DIR__ . '/' );

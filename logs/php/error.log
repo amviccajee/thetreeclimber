@@ -1,2 +1,153 @@
 [18-Jun-2025 14:16:08 UTC] PHP Warning:  filemtime(): stat failed for /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme/dist/css/style.css in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme/functions.php on line 7
 [18-Jun-2025 14:16:08 UTC] PHP Warning:  filemtime(): stat failed for /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme/dist/css/style.css in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme/functions.php on line 7
+[18-Jun-2025 14:45:24 UTC] PHP Warning:  Constant WP_ENVIRONMENT_TYPE already defined in /Users/alice/Local Sites/thetreeclimber/app/public/wp-config.php on line 96
+[20-Jun-2025 06:35:17 UTC] PHP Warning:  Constant WP_ENVIRONMENT_TYPE already defined in /Users/alice/Local Sites/thetreeclimber/app/public/wp-config.php on line 96
+[20-Jun-2025 06:35:17 UTC] PHP Warning:  Constant WP_ENVIRONMENT_TYPE already defined in /Users/alice/Local Sites/thetreeclimber/app/public/wp-config.php on line 96
+[20-Jun-2025 06:35:19 UTC] PHP Warning:  Constant WP_ENVIRONMENT_TYPE already defined in /Users/alice/Local Sites/thetreeclimber/app/public/wp-config.php on line 96
+[20-Jun-2025 06:35:21 UTC] PHP Warning:  Constant WP_ENVIRONMENT_TYPE already defined in /Users/alice/Local Sites/thetreeclimber/app/public/wp-config.php on line 96
+[20-Jun-2025 06:35:21 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_field() in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind-scf/home.php:11
+Stack trace:
+#0 /Users/alice/Local Sites/thetreeclimber/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/alice/Local Sites/thetreeclimber/app/public/wp-blog-header.php(19): require_once('/Users/alice/Lo...')
+#2 /Users/alice/Local Sites/thetreeclimber/app/public/index.php(17): require('/Users/alice/Lo...')
+#3 {main}
+  thrown in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind-scf/home.php on line 11
+[20-Jun-2025 06:36:17 UTC] PHP Warning:  Constant WP_ENVIRONMENT_TYPE already defined in /Users/alice/Local Sites/thetreeclimber/app/public/wp-config.php on line 96
+[20-Jun-2025 06:36:20 UTC] PHP Warning:  Constant WP_ENVIRONMENT_TYPE already defined in /Users/alice/Local Sites/thetreeclimber/app/public/wp-config.php on line 96
+[20-Jun-2025 06:36:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_field() in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind-scf/home.php:11
+Stack trace:
+#0 /Users/alice/Local Sites/thetreeclimber/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/alice/Local Sites/thetreeclimber/app/public/wp-blog-header.php(19): require_once('/Users/alice/Lo...')
+#2 /Users/alice/Local Sites/thetreeclimber/app/public/index.php(17): require('/Users/alice/Lo...')
+#3 {main}
+  thrown in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind-scf/home.php on line 11
+[20-Jun-2025 06:36:20 UTC] PHP Warning:  Constant WP_ENVIRONMENT_TYPE already defined in /Users/alice/Local Sites/thetreeclimber/app/public/wp-config.php on line 96
+[20-Jun-2025 06:53:08 UTC] PHP Warning:  Constant WP_ENVIRONMENT_TYPE already defined in /Users/alice/Local Sites/thetreeclimber/app/public/wp-config.php on line 96
+[23-Jun-2025 12:32:22 UTC] PHP Warning:  Constant WP_ENVIRONMENT_TYPE already defined in /Users/alice/Local Sites/thetreeclimber/app/public/wp-config.php on line 96
+[23-Jun-2025 12:32:22 UTC] PHP Warning:  Constant WP_ENVIRONMENT_TYPE already defined in /Users/alice/Local Sites/thetreeclimber/app/public/wp-config.php on line 96
+[23-Jun-2025 12:32:25 UTC] PHP Warning:  Constant WP_ENVIRONMENT_TYPE already defined in /Users/alice/Local Sites/thetreeclimber/app/public/wp-config.php on line 96
+[23-Jun-2025 12:32:25 UTC] PHP Warning:  Constant WP_ENVIRONMENT_TYPE already defined in /Users/alice/Local Sites/thetreeclimber/app/public/wp-config.php on line 96
+[23-Jun-2025 12:32:31 UTC] PHP Warning:  Constant WP_ENVIRONMENT_TYPE already defined in /Users/alice/Local Sites/thetreeclimber/app/public/wp-config.php on line 96
+[23-Jun-2025 12:32:32 UTC] PHP Warning:  Constant WP_ENVIRONMENT_TYPE already defined in /Users/alice/Local Sites/thetreeclimber/app/public/wp-config.php on line 96
+[23-Jun-2025 12:32:32 UTC] PHP Warning:  Constant WP_ENVIRONMENT_TYPE already defined in /Users/alice/Local Sites/thetreeclimber/app/public/wp-config.php on line 96
+[23-Jun-2025 12:32:39 UTC] PHP Warning:  Constant WP_ENVIRONMENT_TYPE already defined in /Users/alice/Local Sites/thetreeclimber/app/public/wp-config.php on line 96
+[23-Jun-2025 12:32:39 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_field() in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind-scf/home.php:11
+Stack trace:
+#0 /Users/alice/Local Sites/thetreeclimber/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/alice/Local Sites/thetreeclimber/app/public/wp-blog-header.php(19): require_once('/Users/alice/Lo...')
+#2 /Users/alice/Local Sites/thetreeclimber/app/public/index.php(17): require('/Users/alice/Lo...')
+#3 {main}
+  thrown in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind-scf/home.php on line 11
+[23-Jun-2025 12:32:42 UTC] PHP Warning:  Constant WP_ENVIRONMENT_TYPE already defined in /Users/alice/Local Sites/thetreeclimber/app/public/wp-config.php on line 96
+[23-Jun-2025 12:32:42 UTC] PHP Warning:  Constant WP_ENVIRONMENT_TYPE already defined in /Users/alice/Local Sites/thetreeclimber/app/public/wp-config.php on line 96
+[23-Jun-2025 12:32:52 UTC] PHP Warning:  Constant WP_ENVIRONMENT_TYPE already defined in /Users/alice/Local Sites/thetreeclimber/app/public/wp-config.php on line 96
+[23-Jun-2025 12:34:53 UTC] PHP Warning:  Constant WP_ENVIRONMENT_TYPE already defined in /Users/alice/Local Sites/thetreeclimber/app/public/wp-config.php on line 96
+[23-Jun-2025 12:36:54 UTC] PHP Warning:  Constant WP_ENVIRONMENT_TYPE already defined in /Users/alice/Local Sites/thetreeclimber/app/public/wp-config.php on line 96
+[23-Jun-2025 12:38:55 UTC] PHP Warning:  Constant WP_ENVIRONMENT_TYPE already defined in /Users/alice/Local Sites/thetreeclimber/app/public/wp-config.php on line 96
+[23-Jun-2025 12:40:56 UTC] PHP Warning:  Constant WP_ENVIRONMENT_TYPE already defined in /Users/alice/Local Sites/thetreeclimber/app/public/wp-config.php on line 96
+[23-Jun-2025 12:42:57 UTC] PHP Warning:  Constant WP_ENVIRONMENT_TYPE already defined in /Users/alice/Local Sites/thetreeclimber/app/public/wp-config.php on line 96
+[23-Jun-2025 12:47:12 UTC] PHP Warning:  Constant WP_ENVIRONMENT_TYPE already defined in /Users/alice/Local Sites/thetreeclimber/app/public/wp-config.php on line 96
+[23-Jun-2025 12:47:12 UTC] PHP Warning:  Constant WP_ENVIRONMENT_TYPE already defined in /Users/alice/Local Sites/thetreeclimber/app/public/wp-config.php on line 96
+[23-Jun-2025 12:49:13 UTC] PHP Warning:  Constant WP_ENVIRONMENT_TYPE already defined in /Users/alice/Local Sites/thetreeclimber/app/public/wp-config.php on line 96
+[23-Jun-2025 12:51:14 UTC] PHP Warning:  Constant WP_ENVIRONMENT_TYPE already defined in /Users/alice/Local Sites/thetreeclimber/app/public/wp-config.php on line 96
+[23-Jun-2025 12:53:15 UTC] PHP Warning:  Constant WP_ENVIRONMENT_TYPE already defined in /Users/alice/Local Sites/thetreeclimber/app/public/wp-config.php on line 96
+[23-Jun-2025 12:55:16 UTC] PHP Warning:  Constant WP_ENVIRONMENT_TYPE already defined in /Users/alice/Local Sites/thetreeclimber/app/public/wp-config.php on line 96
+[23-Jun-2025 12:57:17 UTC] PHP Warning:  Constant WP_ENVIRONMENT_TYPE already defined in /Users/alice/Local Sites/thetreeclimber/app/public/wp-config.php on line 96
+[23-Jun-2025 12:59:18 UTC] PHP Warning:  Constant WP_ENVIRONMENT_TYPE already defined in /Users/alice/Local Sites/thetreeclimber/app/public/wp-config.php on line 96
+[23-Jun-2025 13:01:19 UTC] PHP Warning:  Constant WP_ENVIRONMENT_TYPE already defined in /Users/alice/Local Sites/thetreeclimber/app/public/wp-config.php on line 96
+[23-Jun-2025 13:03:20 UTC] PHP Warning:  Constant WP_ENVIRONMENT_TYPE already defined in /Users/alice/Local Sites/thetreeclimber/app/public/wp-config.php on line 96
+[23-Jun-2025 13:05:21 UTC] PHP Warning:  Constant WP_ENVIRONMENT_TYPE already defined in /Users/alice/Local Sites/thetreeclimber/app/public/wp-config.php on line 96
+[23-Jun-2025 13:07:22 UTC] PHP Warning:  Constant WP_ENVIRONMENT_TYPE already defined in /Users/alice/Local Sites/thetreeclimber/app/public/wp-config.php on line 96
+[23-Jun-2025 13:09:23 UTC] PHP Warning:  Constant WP_ENVIRONMENT_TYPE already defined in /Users/alice/Local Sites/thetreeclimber/app/public/wp-config.php on line 96
+[23-Jun-2025 13:10:59 UTC] PHP Warning:  Constant WP_ENVIRONMENT_TYPE already defined in /Users/alice/Local Sites/thetreeclimber/app/public/wp-config.php on line 96
+[23-Jun-2025 13:11:09 UTC] PHP Warning:  Constant WP_ENVIRONMENT_TYPE already defined in /Users/alice/Local Sites/thetreeclimber/app/public/wp-config.php on line 96
+[23-Jun-2025 13:11:20 UTC] PHP Warning:  Constant WP_ENVIRONMENT_TYPE already defined in /Users/alice/Local Sites/thetreeclimber/app/public/wp-config.php on line 96
+[23-Jun-2025 13:13:21 UTC] PHP Warning:  Constant WP_ENVIRONMENT_TYPE already defined in /Users/alice/Local Sites/thetreeclimber/app/public/wp-config.php on line 96
+[23-Jun-2025 13:13:21 UTC] PHP Warning:  Constant WP_ENVIRONMENT_TYPE already defined in /Users/alice/Local Sites/thetreeclimber/app/public/wp-config.php on line 96
+[23-Jun-2025 13:15:22 UTC] PHP Warning:  Constant WP_ENVIRONMENT_TYPE already defined in /Users/alice/Local Sites/thetreeclimber/app/public/wp-config.php on line 96
+[23-Jun-2025 13:17:23 UTC] PHP Warning:  Constant WP_ENVIRONMENT_TYPE already defined in /Users/alice/Local Sites/thetreeclimber/app/public/wp-config.php on line 96
+[23-Jun-2025 13:19:24 UTC] PHP Warning:  Constant WP_ENVIRONMENT_TYPE already defined in /Users/alice/Local Sites/thetreeclimber/app/public/wp-config.php on line 96
+[23-Jun-2025 13:21:25 UTC] PHP Warning:  Constant WP_ENVIRONMENT_TYPE already defined in /Users/alice/Local Sites/thetreeclimber/app/public/wp-config.php on line 96
+[25-Jun-2025 16:44:17 UTC] PHP Warning:  Constant WP_ENVIRONMENT_TYPE already defined in /Users/alice/Local Sites/thetreeclimber/app/public/wp-config.php on line 96
+[25-Jun-2025 16:44:17 UTC] PHP Warning:  Constant WP_ENVIRONMENT_TYPE already defined in /Users/alice/Local Sites/thetreeclimber/app/public/wp-config.php on line 96
+[25-Jun-2025 16:44:27 UTC] PHP Warning:  Constant WP_ENVIRONMENT_TYPE already defined in /Users/alice/Local Sites/thetreeclimber/app/public/wp-config.php on line 96
+[25-Jun-2025 16:46:28 UTC] PHP Warning:  Constant WP_ENVIRONMENT_TYPE already defined in /Users/alice/Local Sites/thetreeclimber/app/public/wp-config.php on line 96
+[25-Jun-2025 16:48:29 UTC] PHP Warning:  Constant WP_ENVIRONMENT_TYPE already defined in /Users/alice/Local Sites/thetreeclimber/app/public/wp-config.php on line 96
+[25-Jun-2025 16:50:30 UTC] PHP Warning:  Constant WP_ENVIRONMENT_TYPE already defined in /Users/alice/Local Sites/thetreeclimber/app/public/wp-config.php on line 96
+[25-Jun-2025 16:52:31 UTC] PHP Warning:  Constant WP_ENVIRONMENT_TYPE already defined in /Users/alice/Local Sites/thetreeclimber/app/public/wp-config.php on line 96
+[12-Aug-2025 13:06:25 UTC] PHP Warning:  Constant WP_ENVIRONMENT_TYPE already defined in /Users/alice/Local Sites/thetreeclimber/app/public/wp-config.php on line 96
+[12-Aug-2025 13:06:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_field() in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind-scf/home.php:11
+Stack trace:
+#0 /Users/alice/Local Sites/thetreeclimber/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/alice/Local Sites/thetreeclimber/app/public/wp-blog-header.php(19): require_once('/Users/alice/Lo...')
+#2 /Users/alice/Local Sites/thetreeclimber/app/public/index.php(17): require('/Users/alice/Lo...')
+#3 {main}
+  thrown in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind-scf/home.php on line 11
+[12-Aug-2025 13:06:26 UTC] PHP Warning:  Constant WP_ENVIRONMENT_TYPE already defined in /Users/alice/Local Sites/thetreeclimber/app/public/wp-config.php on line 96
+[12-Aug-2025 13:06:40 UTC] PHP Warning:  Constant WP_ENVIRONMENT_TYPE already defined in /Users/alice/Local Sites/thetreeclimber/app/public/wp-config.php on line 96
+[12-Aug-2025 13:06:40 UTC] PHP Warning:  Constant WP_ENVIRONMENT_TYPE already defined in /Users/alice/Local Sites/thetreeclimber/app/public/wp-config.php on line 96
+[12-Aug-2025 13:06:47 UTC] PHP Warning:  Constant WP_ENVIRONMENT_TYPE already defined in /Users/alice/Local Sites/thetreeclimber/app/public/wp-config.php on line 96
+[12-Aug-2025 13:06:47 UTC] PHP Warning:  Constant WP_ENVIRONMENT_TYPE already defined in /Users/alice/Local Sites/thetreeclimber/app/public/wp-config.php on line 96
+[12-Aug-2025 13:06:58 UTC] PHP Warning:  Constant WP_ENVIRONMENT_TYPE already defined in /Users/alice/Local Sites/thetreeclimber/app/public/wp-config.php on line 96
+[12-Aug-2025 13:07:00 UTC] PHP Warning:  Constant WP_ENVIRONMENT_TYPE already defined in /Users/alice/Local Sites/thetreeclimber/app/public/wp-config.php on line 96
+[12-Aug-2025 13:07:05 UTC] PHP Warning:  Constant WP_ENVIRONMENT_TYPE already defined in /Users/alice/Local Sites/thetreeclimber/app/public/wp-config.php on line 96
+[12-Aug-2025 13:07:37 UTC] PHP Warning:  Constant WP_ENVIRONMENT_TYPE already defined in /Users/alice/Local Sites/thetreeclimber/app/public/wp-config.php on line 96
+[12-Aug-2025 13:07:38 UTC] PHP Warning:  Constant WP_ENVIRONMENT_TYPE already defined in /Users/alice/Local Sites/thetreeclimber/app/public/wp-config.php on line 96
+[12-Aug-2025 13:07:38 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_field() in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind-scf/home.php:11
+Stack trace:
+#0 /Users/alice/Local Sites/thetreeclimber/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/alice/Local Sites/thetreeclimber/app/public/wp-blog-header.php(19): require_once('/Users/alice/Lo...')
+#2 /Users/alice/Local Sites/thetreeclimber/app/public/index.php(17): require('/Users/alice/Lo...')
+#3 {main}
+  thrown in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind-scf/home.php on line 11
+[12-Aug-2025 13:07:45 UTC] PHP Warning:  Constant WP_ENVIRONMENT_TYPE already defined in /Users/alice/Local Sites/thetreeclimber/app/public/wp-config.php on line 96
+[12-Aug-2025 13:07:52 UTC] PHP Warning:  Constant WP_ENVIRONMENT_TYPE already defined in /Users/alice/Local Sites/thetreeclimber/app/public/wp-config.php on line 96
+[12-Aug-2025 13:08:00 UTC] PHP Warning:  Constant WP_ENVIRONMENT_TYPE already defined in /Users/alice/Local Sites/thetreeclimber/app/public/wp-config.php on line 96
+[12-Aug-2025 13:08:14 UTC] PHP Warning:  Constant WP_ENVIRONMENT_TYPE already defined in /Users/alice/Local Sites/thetreeclimber/app/public/wp-config.php on line 96
+[12-Aug-2025 13:08:14 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_field() in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind-scf/home.php:11
+Stack trace:
+#0 /Users/alice/Local Sites/thetreeclimber/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/alice/Local Sites/thetreeclimber/app/public/wp-blog-header.php(19): require_once('/Users/alice/Lo...')
+#2 /Users/alice/Local Sites/thetreeclimber/app/public/index.php(17): require('/Users/alice/Lo...')
+#3 {main}
+  thrown in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind-scf/home.php on line 11
+[12-Aug-2025 13:08:14 UTC] PHP Warning:  Constant WP_ENVIRONMENT_TYPE already defined in /Users/alice/Local Sites/thetreeclimber/app/public/wp-config.php on line 96
+[12-Aug-2025 13:08:16 UTC] PHP Warning:  Constant WP_ENVIRONMENT_TYPE already defined in /Users/alice/Local Sites/thetreeclimber/app/public/wp-config.php on line 96
+[12-Aug-2025 13:08:16 UTC] PHP Warning:  Constant WP_ENVIRONMENT_TYPE already defined in /Users/alice/Local Sites/thetreeclimber/app/public/wp-config.php on line 96
+[12-Aug-2025 13:08:16 UTC] PHP Warning:  Constant WP_ENVIRONMENT_TYPE already defined in /Users/alice/Local Sites/thetreeclimber/app/public/wp-config.php on line 96
+[12-Aug-2025 13:08:16 UTC] PHP Warning:  Constant WP_ENVIRONMENT_TYPE already defined in /Users/alice/Local Sites/thetreeclimber/app/public/wp-config.php on line 96
+[12-Aug-2025 13:08:16 UTC] PHP Warning:  Constant WP_ENVIRONMENT_TYPE already defined in /Users/alice/Local Sites/thetreeclimber/app/public/wp-config.php on line 96
+[12-Aug-2025 13:08:16 UTC] PHP Warning:  Constant WP_ENVIRONMENT_TYPE already defined in /Users/alice/Local Sites/thetreeclimber/app/public/wp-config.php on line 96
+[12-Aug-2025 13:08:16 UTC] PHP Warning:  Constant WP_ENVIRONMENT_TYPE already defined in /Users/alice/Local Sites/thetreeclimber/app/public/wp-config.php on line 96
+[12-Aug-2025 13:08:16 UTC] PHP Warning:  Constant WP_ENVIRONMENT_TYPE already defined in /Users/alice/Local Sites/thetreeclimber/app/public/wp-config.php on line 96
+[12-Aug-2025 13:08:16 UTC] PHP Warning:  Constant WP_ENVIRONMENT_TYPE already defined in /Users/alice/Local Sites/thetreeclimber/app/public/wp-config.php on line 96
+[12-Aug-2025 13:08:18 UTC] PHP Warning:  Constant WP_ENVIRONMENT_TYPE already defined in /Users/alice/Local Sites/thetreeclimber/app/public/wp-config.php on line 96
+[12-Aug-2025 13:08:19 UTC] PHP Warning:  Constant WP_ENVIRONMENT_TYPE already defined in /Users/alice/Local Sites/thetreeclimber/app/public/wp-config.php on line 96
+[12-Aug-2025 13:08:27 UTC] PHP Warning:  Constant WP_ENVIRONMENT_TYPE already defined in /Users/alice/Local Sites/thetreeclimber/app/public/wp-config.php on line 96
+[12-Aug-2025 13:08:31 UTC] PHP Warning:  Constant WP_ENVIRONMENT_TYPE already defined in /Users/alice/Local Sites/thetreeclimber/app/public/wp-config.php on line 96
+[12-Aug-2025 13:08:33 UTC] PHP Warning:  Constant WP_ENVIRONMENT_TYPE already defined in /Users/alice/Local Sites/thetreeclimber/app/public/wp-config.php on line 96
+[12-Aug-2025 13:08:37 UTC] PHP Warning:  Constant WP_ENVIRONMENT_TYPE already defined in /Users/alice/Local Sites/thetreeclimber/app/public/wp-config.php on line 96
+[12-Aug-2025 13:08:39 UTC] PHP Warning:  Constant WP_ENVIRONMENT_TYPE already defined in /Users/alice/Local Sites/thetreeclimber/app/public/wp-config.php on line 96
+[12-Aug-2025 13:08:39 UTC] PHP Warning:  Constant WP_ENVIRONMENT_TYPE already defined in /Users/alice/Local Sites/thetreeclimber/app/public/wp-config.php on line 96
+[12-Aug-2025 13:08:39 UTC] PHP Warning:  Constant WP_ENVIRONMENT_TYPE already defined in /Users/alice/Local Sites/thetreeclimber/app/public/wp-config.php on line 96
+[12-Aug-2025 13:09:39 UTC] PHP Warning:  Constant WP_ENVIRONMENT_TYPE already defined in /Users/alice/Local Sites/thetreeclimber/app/public/wp-config.php on line 96
+[12-Aug-2025 13:10:20 UTC] PHP Warning:  Constant WP_ENVIRONMENT_TYPE already defined in /Users/alice/Local Sites/thetreeclimber/app/public/wp-config.php on line 96
+[12-Aug-2025 13:10:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_field() in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind-scf/home.php:11
+Stack trace:
+#0 /Users/alice/Local Sites/thetreeclimber/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/alice/Local Sites/thetreeclimber/app/public/wp-blog-header.php(19): require_once('/Users/alice/Lo...')
+#2 /Users/alice/Local Sites/thetreeclimber/app/public/index.php(17): require('/Users/alice/Lo...')
+#3 {main}
+  thrown in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind-scf/home.php on line 11
+[12-Aug-2025 13:10:20 UTC] PHP Warning:  Constant WP_ENVIRONMENT_TYPE already defined in /Users/alice/Local Sites/thetreeclimber/app/public/wp-config.php on line 96
+[12-Aug-2025 13:10:26 UTC] PHP Warning:  Constant WP_ENVIRONMENT_TYPE already defined in /Users/alice/Local Sites/thetreeclimber/app/public/wp-config.php on line 96
+[12-Aug-2025 13:11:27 UTC] PHP Warning:  Constant WP_ENVIRONMENT_TYPE already defined in /Users/alice/Local Sites/thetreeclimber/app/public/wp-config.php on line 96
+[12-Aug-2025 13:11:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_field() in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind-scf/home.php:11
+Stack trace:
+#0 /Users/alice/Local Sites/thetreeclimber/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/alice/Local Sites/thetreeclimber/app/public/wp-blog-header.php(19): require_once('/Users/alice/Lo...')
+#2 /Users/alice/Local Sites/thetreeclimber/app/public/index.php(17): require('/Users/alice/Lo...')
+#3 {main}
+  thrown in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind-scf/home.php on line 11
+[12-Aug-2025 13:14:24 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind-scf/home.php on line 21
+[12-Aug-2025 13:14:24 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind-scf/home.php on line 31

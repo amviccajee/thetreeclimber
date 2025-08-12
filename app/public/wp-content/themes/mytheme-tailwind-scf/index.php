@@ -1,5 +1,17 @@
+<?php
+/*
+Template Name: Index
+*/
+?>
+
 <?php get_header(); ?>
-<main>
-  <h1 class="text-3xl font-bold underline">Hello from Tailwind!</h1>
-</main>
+
+<div>
+    <?php the_content(); ?>
+</div>
+
+
+
+
+
 <?php get_footer(); ?>
