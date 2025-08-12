@@ -1,0 +1,14 @@
+# Ignore node_modules
+node_modules/
+
+# Ignore build files
+*.log
+
+# WordPress core files (if not using Bedrock or full WP in repo)
+wp-admin/
+wp-includes/
+wp-content/uploads/
+
+# Local dev files
+app/sql/
+wp-config.php

@@ -1,0 +1,14 @@
+/*
+Theme Name: My Theme Tailwind
+Theme URI: https://github.com/amviccajee/mytheme-tailwind
+Author: Amvic Cajee
+Author URI: https://yourwebsite.com
+Description: A minimal WordPress theme with Tailwind CSS baked in.
+Version: 1.0
+License: GNU General Public License v2 or later
+Text Domain: mytheme-tailwind
+*/
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

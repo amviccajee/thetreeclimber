@@ -1,0 +1,20 @@
+# Ignore WP core
+wp-admin/
+wp-includes/
+index.php
+license.txt
+readme.html
+wp-*.php
+
+# Ignore uploads
+wp-content/uploads/
+
+# Ignore Local dev files
+app/sql/
+wp-config.php
+
+# Keep custom theme
+!wp-content/themes/mytheme-tailwind-scf/
+
+# Keep custom plugins
+!wp-content/plugins/my-custom-plugin/
