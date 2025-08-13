@@ -1,0 +1,83 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply font-sans;
+  }
+}
+
+nav {
+  .menu-item {
+    text-transform: uppercase;
+    text-underline-offset: 4px; 
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+/* === Ninja Forms Styling === */
+
+/* Form wrapper */
+.nf-form-layout {
+  max-width: 600px;
+  margin: 0 auto;
+  font-family: inherit;
+}
+
+/* Labels */
+.nf-field-label label {
+  font-weight: 600;
+  margin-bottom: 6px;
+  display: block;
+  font-size: 0.95rem;
+}
+
+/* Inputs, textareas, selects */
+.nf-form-layout input[type="text"],
+.nf-form-layout input[type="email"],
+.nf-form-layout input[type="tel"],
+.nf-form-layout textarea,
+.nf-form-layout select {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1rem;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+/* Focus state */
+.nf-form-layout input:focus,
+.nf-form-layout textarea:focus,
+.nf-form-layout select:focus {
+  border-color: #228B22;
+  box-shadow: 0 0 0 2px rgba(34, 139, 34, 0.2);
+  outline: none;
+}
+
+/* Submit button */
+.nf-form-layout input[type="submit"] {
+  background-color: #228B22;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 25px;
+  border: none;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.nf-form-layout input[type="submit"]:hover {
+  background-color: #1a6e1a;
+}
+
+.nf-field {
+  margin-bottom: 20px;
+}
+
+.nf-form-fields-required, .nf-form-title {
+  display: none;
+}

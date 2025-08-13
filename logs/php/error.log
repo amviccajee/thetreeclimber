@@ -151,3 +151,9 @@ Stack trace:
   thrown in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind-scf/home.php on line 11
 [12-Aug-2025 13:14:24 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind-scf/home.php on line 21
 [12-Aug-2025 13:14:24 UTC] PHP Warning:  Trying to access array offset on value of type null in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind-scf/home.php on line 31
+[13-Aug-2025 09:41:02 UTC] PHP Warning:  Attempt to read property "title" on null in /Users/alice/Local Sites/thetreeclimber/app/public/wp-includes/class-wp-customize-widgets.php on line 926
+[13-Aug-2025 09:42:37 UTC] PHP Warning:  Attempt to read property "title" on null in /Users/alice/Local Sites/thetreeclimber/app/public/wp-includes/class-wp-customize-widgets.php on line 926
+[13-Aug-2025 09:44:25 UTC] PHP Warning:  Attempt to read property "title" on null in /Users/alice/Local Sites/thetreeclimber/app/public/wp-includes/class-wp-customize-widgets.php on line 926
+[13-Aug-2025 09:58:28 UTC] PHP Warning:  Undefined variable $image_url in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/hero.php on line 2
+[13-Aug-2025 09:58:28 UTC] PHP Warning:  Undefined variable $subtitle in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/hero.php on line 30
+[13-Aug-2025 10:02:35 UTC] Cron reschedule event error for hook: wp_nf_update_fields_cron, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"wp_nf_update_fields_cron_interval","args":[],"interval":300}
