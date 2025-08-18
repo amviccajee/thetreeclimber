@@ -2,10 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-  body {
-    @apply font-sans;
-  }
+
+p, a {
+  @apply font-fira;
+}
+
+h1 {
+  @apply font-lora;
+  letter-spacing: 1;
 }
 
 nav {
@@ -14,13 +18,11 @@ nav {
     text-underline-offset: 4px; 
     &:hover {
       text-decoration: underline;
+      color: #d9ff85;
     }
   }
 }
 
-/* === Ninja Forms Styling === */
-
-/* Form wrapper */
 .nf-form-layout {
   max-width: 600px;
   margin: 0 auto;
@@ -60,18 +62,20 @@ nav {
 
 /* Submit button */
 .nf-form-layout input[type="submit"] {
-  background-color: #228B22;
   color: white;
-  padding: 12px 20px;
+  padding: 12px 40px;
   border-radius: 25px;
-  border: none;
+  border: 1px solid white;
   font-size: 1rem;
   cursor: pointer;
   transition: background-color 0.3s;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 .nf-form-layout input[type="submit"]:hover {
-  background-color: #1a6e1a;
+  background-color: white;
+  color: #e5a298;
 }
 
 .nf-field {
@@ -81,3 +85,27 @@ nav {
 .nf-form-fields-required, .nf-form-title {
   display: none;
 }
+
+/* ---------- MAP CONTAINER STYLING ---------- */
+.wpgmza_map {
+    border-radius: 20px;          
+    overflow: hidden;             
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1); 
+}
+
+/* ---------- HIDE ALL GOOGLE MAP CONTROLS EXCEPT ZOOM ---------- */
+.wpgmza_map .gm-style-mtc,        /* Map type buttons */
+.wpgmza_map .gm-svpc {  
+    display: none !important;
+}
+
+/* Keep zoom control visible */
+.wpgmza_map .gm-zoom-control {
+    display: block !important;
+}
+
+/* Optional: clip markers and tiles to rounded corners */
+.wpgmza_map img {
+    border-radius: inherit;  
+}
+

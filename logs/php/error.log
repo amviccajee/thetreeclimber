@@ -157,3 +157,194 @@ Stack trace:
 [13-Aug-2025 09:58:28 UTC] PHP Warning:  Undefined variable $image_url in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/hero.php on line 2
 [13-Aug-2025 09:58:28 UTC] PHP Warning:  Undefined variable $subtitle in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/hero.php on line 30
 [13-Aug-2025 10:02:35 UTC] Cron reschedule event error for hook: wp_nf_update_fields_cron, Error code: invalid_schedule, Error message: Event schedule does not exist., Data: {"schedule":"wp_nf_update_fields_cron_interval","args":[],"interval":300}
+[13-Aug-2025 13:08:13 UTC] PHP Warning:  Undefined variable $image_url in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/contact.php on line 2
+[13-Aug-2025 13:08:14 UTC] PHP Warning:  Undefined variable $image_url in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/contact.php on line 2
+[13-Aug-2025 13:08:15 UTC] PHP Warning:  Undefined variable $image_url in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/contact.php on line 2
+[13-Aug-2025 13:33:22 UTC] PHP Warning:  Attempt to read property "title" on null in /Users/alice/Local Sites/thetreeclimber/app/public/wp-includes/class-wp-customize-widgets.php on line 926
+[15-Aug-2025 08:53:57 UTC] PHP Warning:  Attempt to read property "html" on null in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/plugins/wp-google-maps/includes/class.admin-ui.php on line 149
+[15-Aug-2025 12:43:33 UTC] Cron reschedule event error for hook: wp_update_plugins, Error code: could_not_set, Error message: The cron event list could not be saved., Data: {"schedule":"twicedaily","args":[],"interval":43200}
+[15-Aug-2025 13:16:02 UTC] PHP Fatal error:  Uncaught Error: Class "SCF" not found in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/hero.php:2
+Stack trace:
+#0 /Users/alice/Local Sites/thetreeclimber/app/public/wp-includes/template.php(812): require()
+#1 /Users/alice/Local Sites/thetreeclimber/app/public/wp-includes/template.php(745): load_template('/Users/alice/Lo...', false, Array)
+#2 /Users/alice/Local Sites/thetreeclimber/app/public/wp-includes/general-template.php(206): locate_template(Array, true, false, Array)
+#3 /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/index.php(5): get_template_part('components/hero')
+#4 /Users/alice/Local Sites/thetreeclimber/app/public/wp-includes/template-loader.php(106): include('/Users/alice/Lo...')
+#5 /Users/alice/Local Sites/thetreeclimber/app/public/wp-blog-header.php(19): require_once('/Users/alice/Lo...')
+#6 /Users/alice/Local Sites/thetreeclimber/app/public/index.php(17): require('/Users/alice/Lo...')
+#7 {main}
+  thrown in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/hero.php on line 2
+[15-Aug-2025 13:17:27 UTC] PHP Fatal error:  Uncaught Error: Class "SCF" not found in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/hero.php:2
+Stack trace:
+#0 /Users/alice/Local Sites/thetreeclimber/app/public/wp-includes/template.php(812): require()
+#1 /Users/alice/Local Sites/thetreeclimber/app/public/wp-includes/template.php(745): load_template('/Users/alice/Lo...', false, Array)
+#2 /Users/alice/Local Sites/thetreeclimber/app/public/wp-includes/general-template.php(206): locate_template(Array, true, false, Array)
+#3 /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/index.php(5): get_template_part('components/hero')
+#4 /Users/alice/Local Sites/thetreeclimber/app/public/wp-includes/template-loader.php(106): include('/Users/alice/Lo...')
+#5 /Users/alice/Local Sites/thetreeclimber/app/public/wp-blog-header.php(19): require_once('/Users/alice/Lo...')
+#6 /Users/alice/Local Sites/thetreeclimber/app/public/index.php(17): require('/Users/alice/Lo...')
+#7 {main}
+  thrown in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/hero.php on line 2
+[15-Aug-2025 13:17:28 UTC] PHP Fatal error:  Uncaught Error: Class "SCF" not found in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/hero.php:2
+Stack trace:
+#0 /Users/alice/Local Sites/thetreeclimber/app/public/wp-includes/template.php(812): require()
+#1 /Users/alice/Local Sites/thetreeclimber/app/public/wp-includes/template.php(745): load_template('/Users/alice/Lo...', false, Array)
+#2 /Users/alice/Local Sites/thetreeclimber/app/public/wp-includes/general-template.php(206): locate_template(Array, true, false, Array)
+#3 /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/index.php(5): get_template_part('components/hero')
+#4 /Users/alice/Local Sites/thetreeclimber/app/public/wp-includes/template-loader.php(106): include('/Users/alice/Lo...')
+#5 /Users/alice/Local Sites/thetreeclimber/app/public/wp-blog-header.php(19): require_once('/Users/alice/Lo...')
+#6 /Users/alice/Local Sites/thetreeclimber/app/public/index.php(17): require('/Users/alice/Lo...')
+#7 {main}
+  thrown in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/hero.php on line 2
+[15-Aug-2025 13:25:42 UTC] PHP Warning:  Undefined variable $image_url in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/hero.php on line 14
+[15-Aug-2025 13:25:42 UTC] PHP Warning:  Undefined variable $subtitle in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/hero.php on line 37
+[15-Aug-2025 13:28:56 UTC] PHP Warning:  Undefined variable $image_url in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/hero.php on line 14
+[15-Aug-2025 13:28:56 UTC] PHP Warning:  Undefined variable $subtitle in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/hero.php on line 37
+[15-Aug-2025 13:30:04 UTC] PHP Warning:  Undefined variable $image_url in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/hero.php on line 18
+[15-Aug-2025 13:30:04 UTC] PHP Warning:  Undefined variable $subtitle in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/hero.php on line 41
+[15-Aug-2025 13:31:03 UTC] PHP Warning:  Undefined variable $image_url in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/hero.php on line 9
+[15-Aug-2025 13:31:03 UTC] PHP Warning:  Undefined variable $subtitle in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/hero.php on line 32
+[15-Aug-2025 13:34:14 UTC] PHP Warning:  Undefined variable $image_url in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/hero.php on line 9
+[15-Aug-2025 13:34:14 UTC] PHP Warning:  Undefined variable $subtitle in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/hero.php on line 32
+[15-Aug-2025 13:46:55 UTC] PHP Fatal error:  Uncaught Error: Class "SCF" not found in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/contact.php:5
+Stack trace:
+#0 /Users/alice/Local Sites/thetreeclimber/app/public/wp-includes/template-loader.php(106): include()
+#1 /Users/alice/Local Sites/thetreeclimber/app/public/wp-blog-header.php(19): require_once('/Users/alice/Lo...')
+#2 /Users/alice/Local Sites/thetreeclimber/app/public/index.php(17): require('/Users/alice/Lo...')
+#3 {main}
+  thrown in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/contact.php on line 5
+[15-Aug-2025 13:55:43 UTC] PHP Warning:  Undefined array key "text" in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/flexiblecontent.php on line 8
+[15-Aug-2025 14:22:39 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/flexiblecontent.php on line 21
+[15-Aug-2025 14:22:39 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/flexiblecontent.php on line 21
+[15-Aug-2025 14:22:39 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/flexiblecontent.php on line 21
+[15-Aug-2025 14:23:02 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/flexiblecontent.php on line 18
+[15-Aug-2025 14:23:02 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/flexiblecontent.php on line 18
+[15-Aug-2025 14:23:02 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/flexiblecontent.php on line 18
+[15-Aug-2025 14:23:11 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/flexiblecontent.php on line 18
+[15-Aug-2025 14:23:11 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/flexiblecontent.php on line 18
+[15-Aug-2025 14:23:11 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/flexiblecontent.php on line 18
+[15-Aug-2025 14:23:27 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/flexiblecontent.php on line 18
+[15-Aug-2025 14:23:27 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/flexiblecontent.php on line 18
+[15-Aug-2025 14:23:27 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/flexiblecontent.php on line 18
+[18-Aug-2025 08:13:58 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
+[18-Aug-2025 08:13:58 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
+[18-Aug-2025 08:13:58 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
+[18-Aug-2025 08:15:10 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 27
+[18-Aug-2025 08:15:10 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 27
+[18-Aug-2025 08:15:10 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 27
+[18-Aug-2025 08:23:26 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
+[18-Aug-2025 08:23:26 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
+[18-Aug-2025 08:23:26 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
+[18-Aug-2025 08:24:10 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
+[18-Aug-2025 08:24:10 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
+[18-Aug-2025 08:24:10 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
+[18-Aug-2025 08:24:33 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
+[18-Aug-2025 08:24:33 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
+[18-Aug-2025 08:24:33 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
+[18-Aug-2025 08:25:10 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
+[18-Aug-2025 08:25:10 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
+[18-Aug-2025 08:25:10 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
+[18-Aug-2025 08:25:49 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
+[18-Aug-2025 08:25:49 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
+[18-Aug-2025 08:25:49 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
+[18-Aug-2025 08:29:30 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
+[18-Aug-2025 08:29:30 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
+[18-Aug-2025 08:29:30 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
+[18-Aug-2025 08:32:43 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
+[18-Aug-2025 08:32:43 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
+[18-Aug-2025 08:32:43 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
+[18-Aug-2025 08:33:16 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
+[18-Aug-2025 08:33:16 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
+[18-Aug-2025 08:33:16 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
+[18-Aug-2025 08:34:03 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
+[18-Aug-2025 08:34:03 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
+[18-Aug-2025 08:34:03 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
+[18-Aug-2025 08:34:45 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
+[18-Aug-2025 08:34:45 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
+[18-Aug-2025 08:34:45 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
+[18-Aug-2025 08:35:05 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
+[18-Aug-2025 08:35:05 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
+[18-Aug-2025 08:35:05 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
+[18-Aug-2025 08:35:13 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
+[18-Aug-2025 08:35:13 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
+[18-Aug-2025 08:35:13 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
+[18-Aug-2025 08:35:24 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
+[18-Aug-2025 08:35:24 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
+[18-Aug-2025 08:35:24 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
+[18-Aug-2025 08:35:29 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
+[18-Aug-2025 08:35:29 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
+[18-Aug-2025 08:35:29 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
+[18-Aug-2025 08:35:46 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
+[18-Aug-2025 08:35:46 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
+[18-Aug-2025 08:35:46 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
+[18-Aug-2025 08:36:45 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
+[18-Aug-2025 08:36:45 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
+[18-Aug-2025 08:36:45 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
+[18-Aug-2025 08:37:06 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
+[18-Aug-2025 08:37:06 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
+[18-Aug-2025 08:37:06 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
+[18-Aug-2025 08:37:20 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
+[18-Aug-2025 08:37:20 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
+[18-Aug-2025 08:37:20 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
+[18-Aug-2025 08:37:41 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
+[18-Aug-2025 08:37:41 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
+[18-Aug-2025 08:37:41 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
+[18-Aug-2025 08:39:28 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
+[18-Aug-2025 08:39:28 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
+[18-Aug-2025 08:39:28 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
+[18-Aug-2025 08:40:11 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
+[18-Aug-2025 08:40:11 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
+[18-Aug-2025 08:40:11 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
+[18-Aug-2025 08:40:30 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
+[18-Aug-2025 08:40:30 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
+[18-Aug-2025 08:40:30 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
+[18-Aug-2025 08:40:35 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
+[18-Aug-2025 08:40:35 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
+[18-Aug-2025 08:40:35 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
+[18-Aug-2025 08:40:47 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
+[18-Aug-2025 08:40:47 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
+[18-Aug-2025 08:40:47 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
+[18-Aug-2025 08:44:59 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
+[18-Aug-2025 08:44:59 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
+[18-Aug-2025 08:44:59 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
+[18-Aug-2025 08:45:09 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
+[18-Aug-2025 08:45:09 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
+[18-Aug-2025 08:45:09 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
+[18-Aug-2025 08:45:18 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
+[18-Aug-2025 08:45:18 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
+[18-Aug-2025 08:45:18 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
+[18-Aug-2025 08:45:18 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
+[18-Aug-2025 08:45:18 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
+[18-Aug-2025 08:45:18 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
+[18-Aug-2025 08:45:44 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
+[18-Aug-2025 08:45:44 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
+[18-Aug-2025 08:45:44 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
+[18-Aug-2025 08:48:39 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
+[18-Aug-2025 08:48:39 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
+[18-Aug-2025 08:48:39 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
+[18-Aug-2025 08:49:50 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
+[18-Aug-2025 08:49:50 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
+[18-Aug-2025 08:49:50 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
+[18-Aug-2025 08:50:49 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
+[18-Aug-2025 08:50:49 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
+[18-Aug-2025 08:50:49 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
+[18-Aug-2025 08:52:26 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
+[18-Aug-2025 08:52:26 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
+[18-Aug-2025 08:52:26 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
+[18-Aug-2025 08:52:57 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
+[18-Aug-2025 08:52:57 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
+[18-Aug-2025 08:52:57 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
+[18-Aug-2025 08:53:07 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
+[18-Aug-2025 08:53:07 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
+[18-Aug-2025 08:53:07 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
+[18-Aug-2025 08:53:40 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
+[18-Aug-2025 08:53:40 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
+[18-Aug-2025 08:53:40 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
+[18-Aug-2025 08:53:41 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
+[18-Aug-2025 08:53:41 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
+[18-Aug-2025 08:53:41 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
+[18-Aug-2025 08:54:08 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
+[18-Aug-2025 08:54:08 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
+[18-Aug-2025 08:54:08 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
+[18-Aug-2025 10:25:24 UTC] PHP Warning:  Undefined variable $gallery_post in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/gallery.php on line 2
+[18-Aug-2025 10:25:24 UTC] PHP Warning:  Attempt to read property "post_content" on null in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/gallery.php on line 2

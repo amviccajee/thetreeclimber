@@ -1,7 +1,7 @@
 <?php
-  $title = SCF::get('hero_title');
-  $subtitle = SCF::get('hero_introduction');
-  $image_id = SCF::get('hero_image');
+  $title = get_field('hero_title');
+  $subtitle = get_field('hero_introduction');
+  $image_id = get_field('hero_image');
   $image_url = $image_id ? wp_get_attachment_image_url($image_id, 'full') : '';
 ?>
 

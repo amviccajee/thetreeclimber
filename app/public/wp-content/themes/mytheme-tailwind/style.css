@@ -154,7 +154,7 @@ html,
   -o-tab-size: 4;
      tab-size: 4;
   /* 3 */
-  font-family: "Open Sans", sans-serif;
+  font-family: ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   /* 4 */
   font-feature-settings: normal;
   /* 5 */
@@ -554,10 +554,6 @@ video {
   display: none;
 }
 
-body {
-  font-family: "Open Sans", sans-serif;
-}
-
 .container {
   width: 100%;
   margin-right: auto;
@@ -592,6 +588,10 @@ body {
   }
 }
 
+.pointer-events-none {
+  pointer-events: none;
+}
+
 .absolute {
   position: absolute;
 }
@@ -620,8 +620,35 @@ body {
   z-index: 10;
 }
 
-.mb-20 {
-  margin-bottom: 5rem;
+.z-20 {
+  z-index: 20;
+}
+
+.mx-auto {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.my-6 {
+  margin-top: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.my-2 {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.mb-2 {
+  margin-bottom: 0.5rem;
+}
+
+.mb-4 {
+  margin-bottom: 1rem;
+}
+
+.mb-8 {
+  margin-bottom: 2rem;
 }
 
 .mt-4 {
@@ -632,8 +659,24 @@ body {
   margin-top: 1.5rem;
 }
 
+.block {
+  display: block;
+}
+
+.inline-block {
+  display: inline-block;
+}
+
 .flex {
   display: flex;
+}
+
+.grid {
+  display: grid;
+}
+
+.h-1 {
+  height: 0.25rem;
 }
 
 .h-\[300px\] {
@@ -648,8 +691,16 @@ body {
   height: 100%;
 }
 
-.min-h-\[600px\] {
-  min-height: 600px;
+.min-h-screen {
+  min-height: 100vh;
+}
+
+.w-48 {
+  width: 12rem;
+}
+
+.w-\[50\%\] {
+  width: 50%;
 }
 
 .w-full {
@@ -659,6 +710,18 @@ body {
 .w-max {
   width: -moz-max-content;
   width: max-content;
+}
+
+.max-w-3xl {
+  max-width: 48rem;
+}
+
+.transform {
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.grid-cols-2 {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
 }
 
 .flex-col {
@@ -681,6 +744,14 @@ body {
   justify-content: space-between;
 }
 
+.gap-10 {
+  gap: 2.5rem;
+}
+
+.gap-4 {
+  gap: 1rem;
+}
+
 .gap-6 {
   gap: 1.5rem;
 }
@@ -691,6 +762,10 @@ body {
   margin-left: calc(1.5rem * calc(1 - var(--tw-space-x-reverse)));
 }
 
+.overflow-hidden {
+  overflow: hidden;
+}
+
 .rounded-\[25px\] {
   border-radius: 25px;
 }
@@ -699,8 +774,27 @@ body {
   border-radius: 0.5rem;
 }
 
+.rounded-b-lg {
+  border-bottom-right-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+
+.rounded-t-lg {
+  border-top-left-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
+}
+
 .border {
   border-width: 1px;
+}
+
+.border-2 {
+  border-width: 2px;
+}
+
+.border-offwhite {
+  --tw-border-opacity: 1;
+  border-color: rgb(247 245 213 / var(--tw-border-opacity, 1));
 }
 
 .border-white {
@@ -713,13 +807,57 @@ body {
   background-color: rgb(249 250 251 / var(--tw-bg-opacity, 1));
 }
 
+.bg-lightGrey {
+  --tw-bg-opacity: 1;
+  background-color: rgb(240 240 240 / var(--tw-bg-opacity, 1));
+}
+
+.bg-offwhite {
+  --tw-bg-opacity: 1;
+  background-color: rgb(247 245 213 / var(--tw-bg-opacity, 1));
+}
+
+.bg-scallop {
+  --tw-bg-opacity: 1;
+  background-color: rgb(250 150 135 / var(--tw-bg-opacity, 1));
+}
+
 .bg-white {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity, 1));
 }
 
+.bg-white\/60 {
+  background-color: rgb(255 255 255 / 0.6);
+}
+
+.bg-seaGreen {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 224 145 / var(--tw-bg-opacity, 1));
+}
+
+.bg-black\/40 {
+  background-color: rgb(0 0 0 / 0.4);
+}
+
+.bg-white\/40 {
+  background-color: rgb(255 255 255 / 0.4);
+}
+
 .bg-white\/30 {
   background-color: rgb(255 255 255 / 0.3);
+}
+
+.bg-black\/30 {
+  background-color: rgb(0 0 0 / 0.3);
+}
+
+.bg-black\/20 {
+  background-color: rgb(0 0 0 / 0.2);
+}
+
+.bg-black\/10 {
+  background-color: rgb(0 0 0 / 0.1);
 }
 
 .bg-gradient-to-r {
@@ -736,9 +874,21 @@ body {
   --tw-gradient-to: rgb(0 0 0 / 0) var(--tw-gradient-to-position);
 }
 
+.bg-cover {
+  background-size: cover;
+}
+
+.bg-center {
+  background-position: center;
+}
+
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+.p-10 {
+  padding: 2.5rem;
 }
 
 .p-4 {
@@ -749,9 +899,18 @@ body {
   padding: 1.5rem;
 }
 
+.p-12 {
+  padding: 3rem;
+}
+
 .px-12 {
   padding-left: 3rem;
   padding-right: 3rem;
+}
+
+.px-40 {
+  padding-left: 10rem;
+  padding-right: 10rem;
 }
 
 .py-10 {
@@ -764,22 +923,52 @@ body {
   padding-bottom: 0.75rem;
 }
 
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
 .py-6 {
   padding-top: 1.5rem;
   padding-bottom: 1.5rem;
 }
 
-.px-4 {
-  padding-left: 1rem;
-  padding-right: 1rem;
+.pb-10 {
+  padding-bottom: 2.5rem;
+}
+
+.pb-20 {
+  padding-bottom: 5rem;
+}
+
+.pt-32 {
+  padding-top: 8rem;
+}
+
+.pt-10 {
+  padding-top: 2.5rem;
 }
 
 .pb-6 {
   padding-bottom: 1.5rem;
 }
 
+.text-left {
+  text-align: left;
+}
+
 .text-center {
   text-align: center;
+}
+
+.text-3xl {
+  font-size: 1.875rem;
+  line-height: 2.25rem;
+}
+
+.text-4xl {
+  font-size: 2.25rem;
+  line-height: 2.5rem;
 }
 
 .text-6xl {
@@ -792,18 +981,17 @@ body {
   line-height: 1.75rem;
 }
 
-.text-9xl {
-  font-size: 8rem;
-  line-height: 1;
-}
-
-.text-5xl {
-  font-size: 3rem;
-  line-height: 1;
+.text-xl {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 
 .font-bold {
   font-weight: 700;
+}
+
+.font-thin {
+  font-weight: 100;
 }
 
 .uppercase {
@@ -813,6 +1001,11 @@ body {
 .text-gray-900 {
   --tw-text-opacity: 1;
   color: rgb(17 24 39 / var(--tw-text-opacity, 1));
+}
+
+.text-offwhite {
+  --tw-text-opacity: 1;
+  color: rgb(247 245 213 / var(--tw-text-opacity, 1));
 }
 
 .text-white {
@@ -841,19 +1034,25 @@ body {
   transition-duration: 300ms;
 }
 
+p, a {
+  font-family: Fira Sans, sans-serif;
+}
+
+h1 {
+  font-family: Lora, serif;
+  letter-spacing: 1;
+}
+
 nav {
   .menu-item {
     text-transform: uppercase;
     text-underline-offset: 4px;
     &:hover {
       text-decoration: underline;
+      color: #d9ff85;
     }
   }
 }
-
-/* === Ninja Forms Styling === */
-
-/* Form wrapper */
 
 .nf-form-layout {
   max-width: 600px;
@@ -898,18 +1097,20 @@ nav {
 /* Submit button */
 
 .nf-form-layout input[type="submit"] {
-  background-color: #228B22;
   color: white;
-  padding: 12px 20px;
+  padding: 12px 40px;
   border-radius: 25px;
-  border: none;
+  border: 1px solid white;
   font-size: 1rem;
   cursor: pointer;
   transition: background-color 0.3s;
+  text-transform: uppercase;
+  font-weight: bold;
 }
 
 .nf-form-layout input[type="submit"]:hover {
-  background-color: #1a6e1a;
+  background-color: white;
+  color: #e5a298;
 }
 
 .nf-field {
@@ -920,17 +1121,77 @@ nav {
   display: none;
 }
 
-.hover\:border-scallop:hover {
+/* ---------- MAP CONTAINER STYLING ---------- */
+
+.wpgmza_map {
+  border-radius: 20px;
+  overflow: hidden;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+}
+
+/* ---------- HIDE ALL GOOGLE MAP CONTROLS EXCEPT ZOOM ---------- */
+
+.wpgmza_map .gm-style-mtc,        /* Map type buttons */
+.wpgmza_map .gm-svpc {
+  display: none !important;
+}
+
+/* Keep zoom control visible */
+
+.wpgmza_map .gm-zoom-control {
+  display: block !important;
+}
+
+/* Optional: clip markers and tiles to rounded corners */
+
+.wpgmza_map img {
+  border-radius: inherit;
+}
+
+.hover\:scale-105:hover {
+  --tw-scale-x: 1.05;
+  --tw-scale-y: 1.05;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.hover\:border-brightgreen:hover {
   --tw-border-opacity: 1;
-  border-color: rgb(229 162 152 / var(--tw-border-opacity, 1));
+  border-color: rgb(217 255 133 / var(--tw-border-opacity, 1));
 }
 
-.hover\:bg-scallop:hover {
+.hover\:border-seafoam:hover {
+  --tw-border-opacity: 1;
+  border-color: rgb(193 217 183 / var(--tw-border-opacity, 1));
+}
+
+.hover\:bg-brightgreen:hover {
   --tw-bg-opacity: 1;
-  background-color: rgb(229 162 152 / var(--tw-bg-opacity, 1));
+  background-color: rgb(217 255 133 / var(--tw-bg-opacity, 1));
 }
 
-.hover\:text-forest:hover {
-  --tw-text-opacity: 1;
-  color: rgb(0 115 92 / var(--tw-text-opacity, 1));
+.hover\:bg-seafoam:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(193 217 183 / var(--tw-bg-opacity, 1));
 }
+
+.hover\:text-greentitle:hover {
+  --tw-text-opacity: 1;
+  color: rgb(0 200 122 / var(--tw-text-opacity, 1));
+}
+
+@media (min-width: 640px) {
+  .sm\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+}
+
+@media (min-width: 768px) {
+  .md\:flex-1 {
+    flex: 1 1 0%;
+  }
+
+  .md\:grid-cols-4 {
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+  }
+}
+

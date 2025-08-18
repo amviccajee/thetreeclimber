@@ -7,14 +7,19 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        sans: ['"Open Sans"', 'sans-serif'],
+        fira: ['Fira Sans', 'sans-serif'],
+        lora: ['Lora', 'serif'],
       },
       colors: {
         pea: '#A7F3D0',
-        seaGreen: '##00e091',
+        seaGreen: '#00e091',
+        offwhite: '#f7f5d5',
         forest: '#00735c',
         seafoam: '#c1d9b7',
-        scallop: '#e5a298',
+        scallop: '#fa9687',
+        lightGrey: '#f0f0f0',
+        brightgreen: '#d9ff85',
+        greentitle: '#00c87a',
       },
     },
     container: {
