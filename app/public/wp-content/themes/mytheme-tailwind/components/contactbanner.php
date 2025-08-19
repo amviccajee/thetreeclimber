@@ -37,23 +37,25 @@ if ($contact_banner) {
     }
     ?>
     <div 
-      class="contact-banner p-12 text-center my-6 bg-cover bg-center relative" 
+      class="contact-banner py-16 text-center bg-cover bg-center relative" 
       <?php if ($bg_url): ?> style="background-image: url('<?php echo esc_url($bg_url); ?>');" <?php endif; ?>
     >
       <div class="absolute inset-0 bg-black/30 rounded-lg"></div>
       <div class="flex container relative z-10 justify-between items-center">
         <div class="text-left">
           <?php if ($title): ?>
-            <h2 class="text-3xl font-bold mb-2 text-white"><?php echo esc_html($title); ?></h2>
+            <h2 class="text-3xl font-bold pb-8 text-white"><?php echo esc_html($title); ?></h2>
+            <span class="block w-12 h-1 bg-seaGreen"></span>
           <?php endif; ?>
           <?php if ($information): ?>
-            <p class="mb-4 text-white"><?php echo esc_html($information); ?></p>
+            <p class="mb-4 text-white pt-8 w-[70%]"><?php echo esc_html($information); ?></p>
           <?php endif; ?>
         </div>
         <?php if ($link_url): ?>
-          <a href="<?php echo esc_url($link_url); ?>" class="inline-block border-2 border-white text-white font-bold uppercase px-12 py-3 rounded-[25px] hover:bg-seafoam hover:border-seafoam transition">
-            <?php echo esc_html($link_title); ?>
-          </a>
+        <a href="<?php echo esc_url($link_url); ?>" 
+          class="px-10 py-3 font-bold transition duration-300 uppercase bg-pink text-green rounded-[25px] hover:bg-green hover:text-pink whitespace-nowrap">
+          <?php echo esc_html($link_title); ?>
+        </a>
         <?php endif; ?>
       </div>
     </div>

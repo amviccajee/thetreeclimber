@@ -5,12 +5,12 @@
     'image_with_text_three',
   ];
 ?>
-<div class="container pt-10">
-  <div class="text-center py-6">
-    <h2 class="text-4xl pb-6">We specialise in</h2>
-    <p>Nulla et congue urna, nec porttitor ipsum. Mauris nulla neque, consectetur iaculis libero consectetur, ultricies accumsan nisl.</p>  
+<div class="container pt-24 pb-28">
+  <div class="flex flex-col items-center pt-6 pb-20 text-center">
+    <h2 class="text-4xl pb-6 font-medium">We are <span class="text-seaGreen">Experts</span> in</h2>
+    <p class="max-w-[70%] text-textGrey">Nulla et congue urna, nec porttitor ipsum. Mauris nulla neque, consectetur iaculis libero consectetur, ultricies accumsan nisl.</p>  
   </div>
-  <div class="flex gap-4">
+  <div class="flex gap-6">
   <?php
     foreach ($image_groups as $group_name) {
     $item = get_field($group_name);
@@ -26,21 +26,21 @@
           $image_url = '';
       }
     ?>
-    <div class="flex flex-col items-center bg-lightGrey ">
+    <div class="flex flex-col items-center bg-lightGrey rounded-[32px] group">
       <div class="relative w-full">
         <?php if ($image_url): ?>
-          <img src="<?php echo esc_url($image_url); ?>" alt="<?php echo esc_attr($title); ?>" class="w-full object-cover p-4 h-[300px]">
+          <img src="<?php echo esc_url($image_url); ?>" alt="<?php echo esc_attr($title); ?>" class="w-full object-cover p-4 h-[300px] rounded-[32px]">
         <?php endif; ?>
       </div>
-      <div class="image-textrounded-b-lg p-4">
+      <div class="image-text rounded-b-lg p-5">
         <?php if ($title): ?>
-          <h2 class="w-full text-xl">
+          <h2 class="w-full text-xl pb-6 font-medium">
             <?php echo esc_html($title); ?>
           </h2>
         <?php endif; ?>
-        <span class="block w-48 h-1 bg-seaGreen my-2"></span>
+        <span class="block w-12 h-1 bg-seaGreen"></span>
         <?php if ($information): ?>
-          <p class="font-thin"><?php echo esc_html($information); ?></p>
+          <p class="pt-6 pb-3 text-textGrey"><?php echo esc_html($information); ?></p>
         <?php endif; ?>
       </div>
     </div>

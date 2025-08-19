@@ -7,7 +7,7 @@ p, a {
   @apply font-fira;
 }
 
-h1 {
+h1, h2 {
   @apply font-lora;
   letter-spacing: 1;
 }
@@ -62,10 +62,10 @@ nav {
 
 /* Submit button */
 .nf-form-layout input[type="submit"] {
-  color: white;
+  color: red;
   padding: 12px 40px;
   border-radius: 25px;
-  border: 1px solid white;
+  border: 1px solid red;
   font-size: 1rem;
   cursor: pointer;
   transition: background-color 0.3s;
@@ -88,7 +88,8 @@ nav {
 
 /* ---------- MAP CONTAINER STYLING ---------- */
 .wpgmza_map {
-    border-radius: 20px;          
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
     overflow: hidden;             
     box-shadow: 0 4px 20px rgba(0,0,0,0.1); 
 }
@@ -102,10 +103,5 @@ nav {
 /* Keep zoom control visible */
 .wpgmza_map .gm-zoom-control {
     display: block !important;
-}
-
-/* Optional: clip markers and tiles to rounded corners */
-.wpgmza_map img {
-    border-radius: inherit;  
 }
 

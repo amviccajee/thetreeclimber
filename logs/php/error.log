@@ -348,3 +348,5 @@ Stack trace:
 [18-Aug-2025 08:54:08 UTC] PHP Warning:  Undefined variable $flex_direction_class in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/textimageblocks.php on line 24
 [18-Aug-2025 10:25:24 UTC] PHP Warning:  Undefined variable $gallery_post in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/gallery.php on line 2
 [18-Aug-2025 10:25:24 UTC] PHP Warning:  Attempt to read property "post_content" on null in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/components/gallery.php on line 2
+[18-Aug-2025 13:30:02 UTC] PHP Warning:  Undefined variable $image_url in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/contact.php on line 3
+[18-Aug-2025 13:30:03 UTC] PHP Warning:  Undefined variable $image_url in /Users/alice/Local Sites/thetreeclimber/app/public/wp-content/themes/mytheme-tailwind/contact.php on line 3

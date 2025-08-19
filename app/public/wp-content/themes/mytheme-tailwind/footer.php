@@ -1,6 +1,6 @@
 </main>
 
-<footer>
+<footer class="bg-green text-white">
   <div class="container py-10">
     <p>&copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?>. All rights reserved.</p>
   </div>

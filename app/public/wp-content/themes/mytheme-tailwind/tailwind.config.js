@@ -12,14 +12,17 @@ module.exports = {
       },
       colors: {
         pea: '#A7F3D0',
-        seaGreen: '#00e091',
+        seaGreen: '#73c496',
         offwhite: '#f7f5d5',
         forest: '#00735c',
         seafoam: '#c1d9b7',
         scallop: '#fa9687',
         lightGrey: '#f0f0f0',
         brightgreen: '#d9ff85',
+        textGrey: '#838385',
         greentitle: '#00c87a',
+        pink: '#ffcccf',
+        green: '#4d6658'
       },
     },
     container: {
