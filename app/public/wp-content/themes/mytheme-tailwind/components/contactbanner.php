@@ -37,11 +37,11 @@ if ($contact_banner) {
     }
     ?>
     <div 
-      class="contact-banner py-16 text-center bg-cover bg-center relative" 
+      class="contact-banner py-16 md:text-center bg-cover bg-center relative" 
       <?php if ($bg_url): ?> style="background-image: url('<?php echo esc_url($bg_url); ?>');" <?php endif; ?>
     >
       <div class="absolute inset-0 bg-black/30 rounded-lg"></div>
-      <div class="flex container relative z-10 justify-between items-center">
+      <div class="flex flex-col gap-6 md:flex-row container relative z-10 justify-between md:items-center">
         <div class="text-left">
           <?php if ($title): ?>
             <h2 class="text-3xl font-bold pb-8 text-white"><?php echo esc_html($title); ?></h2>
@@ -52,10 +52,10 @@ if ($contact_banner) {
           <?php endif; ?>
         </div>
         <?php if ($link_url): ?>
-        <a href="<?php echo esc_url($link_url); ?>" 
-          class="px-10 py-3 font-bold transition duration-300 uppercase bg-pink text-green rounded-[25px] hover:bg-green hover:text-pink whitespace-nowrap">
-          <?php echo esc_html($link_title); ?>
-        </a>
+          <a href="<?php echo esc_url($link_url); ?>" 
+            class="px-10 py-3 font-bold transition duration-300 w-max uppercase bg-pink text-green rounded-[25px] hover:bg-green hover:text-pink whitespace-nowrap">
+            <?php echo esc_html($link_title); ?>
+          </a>
         <?php endif; ?>
       </div>
     </div>

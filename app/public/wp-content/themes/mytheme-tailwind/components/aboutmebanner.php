@@ -18,7 +18,7 @@ if ($about_me) {
         $img_url = '';
     }    
     
-    // Get image URL
+    // Get image two URL
     if (is_array($image_two) && isset($image_two['url'])) {
         $img_two_url = $image_two['url'];
     } elseif (is_int($image_two)) {

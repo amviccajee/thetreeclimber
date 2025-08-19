@@ -5,12 +5,12 @@
     'image_with_text_three',
   ];
 ?>
-<div class="container pt-24 pb-28">
-  <div class="flex flex-col items-center pt-6 pb-20 text-center">
+<div class="container pt-12 pb-12 md:pt-24 md:pb-28">
+  <div class="flex flex-col items-center pb-12 md:pb-20 text-center">
     <h2 class="text-4xl pb-6 font-medium">We are <span class="text-seaGreen">Experts</span> in</h2>
     <p class="max-w-[70%] text-textGrey">Nulla et congue urna, nec porttitor ipsum. Mauris nulla neque, consectetur iaculis libero consectetur, ultricies accumsan nisl.</p>  
   </div>
-  <div class="flex gap-6">
+  <div class="flex flex-col md:flex-row gap-6">
   <?php
     foreach ($image_groups as $group_name) {
     $item = get_field($group_name);

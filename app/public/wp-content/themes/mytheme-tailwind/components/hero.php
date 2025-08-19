@@ -19,7 +19,7 @@ if ( $image_field ) {
 }
 ?>
 
-<div class="relative w-full h-[800px]">
+<div class="relative w-full h-[600px] md:h-[800px]">
   <?php if ($image_url): ?>
     <img src="<?php echo esc_url($image_url); ?>" alt="<?php echo esc_attr($alt_text); ?>" class="absolute top-0 left-0 w-full h-full object-cover z-0">
     <div class="absolute inset-0 bg-gradient-to-r from-black/70 to-black/0"></div>
@@ -39,11 +39,11 @@ if ( $image_field ) {
     </div> 
     <div class="flex flex-col justify-center h-full text-offwhite">
       <?php if ($title): ?>
-        <h1 class="text-6xl font-bold"><?php echo esc_html($title); ?></h1>
+        <h1 class="text-5xl md:text-6xl font-bold"><?php echo esc_html($title); ?></h1>
         <span class="block w-28 h-1 bg-offwhite mt-10"></span>
       <?php endif; ?>
       <?php if ($subtitle): ?>
-        <p class="text-lg w-[50%] py-10"><?php echo esc_html($subtitle); ?></p>
+        <p class="text-lg md:w-[50%] py-10"><?php echo esc_html($subtitle); ?></p>
       <?php endif; ?>
           <a href="/contact" class="px-10 py-3 font-bold transition duration-300 uppercase w-max bg-pink text-green rounded-[25px] hover:bg-green hover:text-pink">
           Book a consultation
