@@ -23,18 +23,23 @@ if ( $image_field ) {
   <?php if ($image_url): ?>
     <img src="<?php echo esc_url($image_url); ?>" alt="<?php echo esc_attr($alt_text); ?>" class="absolute top-0 left-0 w-full h-full object-cover z-0">
     <div class="absolute inset-0 bg-gradient-to-r from-black/70 to-black/0"></div>
-  <?php endif; ?>
-  <div class="z-10 container relative text-white h-full flex flex-col justify-between">
-    <div class="w-full flex justify-end gap-6 py-6 items-center">
-      <nav class="text-offwhite">
-        <?php
-        wp_nav_menu([
-          'theme_location' => 'primary',
-          'container' => false,
-          'menu_class' => 'flex space-x-6',
-          'fallback_cb' => false
-        ]);
-        ?>
+    <?php endif; ?>
+    <div class="z-10 container relative text-white h-full flex flex-col justify-between">
+      <div class="w-full flex justify-between gap-6 py-6 items-center">
+        <a href="/home" class="block">
+          <div class="bg-pink rounded-full w-[50px] h-[50px] flex items-center justify-center">
+            <img src="<?php echo get_template_directory_uri(); ?>/src/images/logo1.svg" alt="Logo" class="w-[30px]">
+          </div>
+        </a>
+        <nav class="text-offwhite">
+          <?php
+            wp_nav_menu([
+              'theme_location' => 'primary',
+              'container' => false,
+              'menu_class' => 'flex space-x-6',
+              'fallback_cb' => false
+            ]);
+          ?>
       </nav>
     </div> 
     <div class="flex flex-col justify-center h-full text-offwhite">

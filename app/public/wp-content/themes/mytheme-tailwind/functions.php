@@ -18,6 +18,4 @@ function enqueue_glightbox_assets() {
 }
 add_action('wp_enqueue_scripts', 'enqueue_glightbox_assets');
 
-
-
 ?>

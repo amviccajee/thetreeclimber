@@ -628,6 +628,14 @@ video {
   z-index: 10;
 }
 
+.order-2 {
+  order: 2;
+}
+
+.order-1 {
+  order: 1;
+}
+
 .mx-auto {
   margin-left: auto;
   margin-right: auto;
@@ -699,8 +707,16 @@ video {
   height: 100%;
 }
 
-.min-h-screen {
-  min-height: 100vh;
+.h-12 {
+  height: 3rem;
+}
+
+.h-\[30px\] {
+  height: 30px;
+}
+
+.h-\[50px\] {
+  height: 50px;
 }
 
 .w-12 {
@@ -709,10 +725,6 @@ video {
 
 .w-28 {
   width: 7rem;
-}
-
-.w-\[50\%\] {
-  width: 50%;
 }
 
 .w-\[500px\] {
@@ -730,6 +742,18 @@ video {
 .w-max {
   width: -moz-max-content;
   width: max-content;
+}
+
+.w-auto {
+  width: auto;
+}
+
+.w-\[30px\] {
+  width: 30px;
+}
+
+.w-\[50px\] {
+  width: 50px;
 }
 
 .max-w-\[70\%\] {
@@ -780,6 +804,10 @@ video {
   gap: 2rem;
 }
 
+.gap-16 {
+  gap: 4rem;
+}
+
 .space-x-6 > :not([hidden]) ~ :not([hidden]) {
   --tw-space-x-reverse: 0;
   margin-right: calc(1.5rem * var(--tw-space-x-reverse));
@@ -808,8 +836,16 @@ video {
   border-radius: 32px;
 }
 
+.rounded-\[35px\] {
+  border-radius: 35px;
+}
+
 .rounded-lg {
   border-radius: 0.5rem;
+}
+
+.rounded-full {
+  border-radius: 9999px;
 }
 
 .rounded-b-lg {
@@ -817,12 +853,12 @@ video {
   border-bottom-left-radius: 0.5rem;
 }
 
-.rounded-tl-\[25px\] {
-  border-top-left-radius: 25px;
+.rounded-bl-\[25px\] {
+  border-bottom-left-radius: 25px;
 }
 
-.rounded-tr-\[25px\] {
-  border-top-right-radius: 25px;
+.rounded-br-\[25px\] {
+  border-bottom-right-radius: 25px;
 }
 
 .bg-black\/30 {
@@ -983,6 +1019,10 @@ video {
   padding-top: 2rem;
 }
 
+.pb-24 {
+  padding-bottom: 6rem;
+}
+
 .text-left {
   text-align: left;
 }
@@ -1101,10 +1141,13 @@ h1, h2 {
 nav {
   .menu-item {
     text-transform: uppercase;
+    font-weight: 500;
+    color: #f7f5d5;
+    letter-spacing: 1;
     text-underline-offset: 4px;
     &:hover {
       text-decoration: underline;
-      color: #d9ff85;
+      color: #ffcccf;
     }
   }
 }
@@ -1149,13 +1192,11 @@ nav {
   outline: none;
 }
 
-/* Submit button */
-
 .nf-form-layout input[type="submit"] {
-  color: red;
+  color: #4d6658;
+  background: #ffcccf;
   padding: 12px 40px;
   border-radius: 25px;
-  border: 1px solid red;
   font-size: 1rem;
   cursor: pointer;
   transition: background-color 0.3s;
@@ -1164,7 +1205,7 @@ nav {
 }
 
 .nf-form-layout input[type="submit"]:hover {
-  background-color: white;
+  background-color: #4d6658;
   color: #e5a298;
 }
 
@@ -1232,6 +1273,18 @@ footer {
 }
 
 @media (min-width: 768px) {
+  .md\:order-1 {
+    order: 1;
+  }
+
+  .md\:order-2 {
+    order: 2;
+  }
+
+  .md\:mb-10 {
+    margin-bottom: 2.5rem;
+  }
+
   .md\:h-\[300px\] {
     height: 300px;
   }
@@ -1256,8 +1309,20 @@ footer {
     flex-direction: row;
   }
 
+  .md\:items-start {
+    align-items: flex-start;
+  }
+
   .md\:items-center {
     align-items: center;
+  }
+
+  .md\:gap-8 {
+    gap: 2rem;
+  }
+
+  .md\:rounded-tr-\[25px\] {
+    border-top-right-radius: 25px;
   }
 
   .md\:py-28 {
@@ -1275,6 +1340,18 @@ footer {
 
   .md\:pt-24 {
     padding-top: 6rem;
+  }
+
+  .md\:pb-32 {
+    padding-bottom: 8rem;
+  }
+
+  .md\:pt-8 {
+    padding-top: 2rem;
+  }
+
+  .md\:text-left {
+    text-align: left;
   }
 
   .md\:text-center {

@@ -16,10 +16,13 @@ if ($personal_details) {
     <div class="flex flex-col md:flex-row justify-between gap-8">
       
       <!-- Left column: contact details -->
-      <div class="pt-8 flex flex-col gap-4 md:w-1/2">
+      <div class="flex flex-col gap-4 md:w-1/2">
+        <div class="bg-pink rounded-full w-[50px] h-[50px] flex items-center justify-center">
+          <img src="<?php echo get_template_directory_uri(); ?>/src/images/logo1.svg" alt="Logo" class="w-[30px]">
+        </div>
         <div class="personal-details space-y-4">
           <a href="/contact" class="text-white hover:text-pink hover:underline">
-            Contact
+            The Tree Climber &copy;
           </a>
           <?php if (!empty($email)): ?>
               <p class="hover:underline hover:text-pink">
@@ -35,7 +38,6 @@ if ($personal_details) {
               <p><?php echo esc_html($address); ?></p>
           <?php endif; ?>
         </div>
-        <p class="text-small">&copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?>. All rights reserved.</p>
       </div>
       <div class="md:w-1/2">
         <div class="overflow-hidden">

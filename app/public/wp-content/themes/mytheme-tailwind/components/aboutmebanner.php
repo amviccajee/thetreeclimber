@@ -30,9 +30,9 @@ if ($about_me) {
     }
 
     ?>
-    <div class="contact-banner relative pb-32">
-      <div class="container mx-auto flex flex-col md:flex-row items-center gap-8">
-        <div class="flex-1 relative">
+    <div class="contact-banner relative pb-24 md:pb-32 pt-12">
+      <div class="container mx-auto flex flex-col md:flex-row items-center gap-16 md:gap-8">
+        <div class="flex-1 relative order-2 md:order-1">
           <?php if ($img_url): ?>
             <div>
               <img src="<?php echo esc_url($img_url); ?>" alt="<?php echo esc_attr($title); ?>" class="w-[500px] h-[400px] object-cover rounded-lg shadow-lg">
@@ -44,7 +44,7 @@ if ($about_me) {
             </div>
           <?php endif; ?>
         </div> 
-        <div class="flex-1 text-left">
+        <div class="flex-1 flex flex-col items-center md:items-start text-center md:text-left order-1 md:order-2">
           <?php if ($title): ?>
             <h2 class="text-3xl font-bold pb-4"><?php echo esc_html($title); ?></h2>
             <span class="block w-12 h-1 bg-seaGreen mb-4"></span>

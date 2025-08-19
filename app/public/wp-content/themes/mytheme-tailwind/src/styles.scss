@@ -15,10 +15,13 @@ h1, h2 {
 nav {
   .menu-item {
     text-transform: uppercase;
+    font-weight: 500;
+    color: #f7f5d5;
+    letter-spacing: 1;
     text-underline-offset: 4px; 
     &:hover {
       text-decoration: underline;
-      color: #d9ff85;
+      color: #ffcccf;
     }
   }
 }
@@ -60,12 +63,11 @@ nav {
   outline: none;
 }
 
-/* Submit button */
 .nf-form-layout input[type="submit"] {
-  color: red;
+  color: #4d6658;
+  background: #ffcccf;
   padding: 12px 40px;
   border-radius: 25px;
-  border: 1px solid red;
   font-size: 1rem;
   cursor: pointer;
   transition: background-color 0.3s;
@@ -74,7 +76,7 @@ nav {
 }
 
 .nf-form-layout input[type="submit"]:hover {
-  background-color: white;
+  background-color: #4d6658;
   color: #e5a298;
 }
 
